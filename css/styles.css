@@ -1,3 +1,77 @@
-img{
-    width: 264;
+body{
+    font-family: "roboto", sans-serif ;
+    font-size: 16px;
+    color: #434455;
+    line-height: 24px;
+}
+
+.darkvg{
+    background-color: #2e2f42;
+    width: 1350px;
+    height: 600px;
+    
+    
+}
+.darkvg h1{
+    color: #ffffff;
+    text-align: center;
+    size: 56px;
+    font-weight: 700px;
+    line-height: 90px;
+}
+
+
+
+button{
+    color: #404BBF;
+    width: 200px;
+    height: 70px;
+    border-radius: 20px;
+    margin-left: 530px;
+    margin-top: 200px;
+}
+
+
+a:hover,
+button:hover{
+    color: #4D5AE5;
+}
+
+.ourimg{
+    width: 360px;
+}
+
+.team{
+    color: #000000;
+ 
+}
+
+.team:hover{
+color: #2e2f42;
+}
+.ourteam{
+    background-color: #f4f4fd;
+    text-align: center;
+    line-height: 40px;
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 50px;
+}
+header nav{
+    margin-left: 30px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.ourteam ul{
+    display: flex   ;
+    list-style: none;
+}
+.ourteam ul li{
+    margin: 25px;
 }
