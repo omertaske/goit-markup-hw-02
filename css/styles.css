@@ -29,6 +29,7 @@ button{
     border-radius: 20px;
     margin-left: 530px;
     margin-top: 200px;
+    cursor: pointer;
 }
 
 
@@ -55,18 +56,57 @@ color: #2e2f42;
     line-height: 40px;
     
 }
-nav ul{
+
+.ourportfolio h2{
+
+    text-align: center;
+}
+.ourportfolio ul{
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-left: 130px;
+    border: 1px, 1px, 1px, 1px ;
 }
-nav ul li{
-    margin: 50px;
+.ourportfolio ul li{
+    flex: 3;
 }
+
+
+
+body, header, nav, ul, li, a, address {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 header nav{
-    margin-left: 30px;
+    margin-left: 60px;
     display: flex;
     margin-top: 50px;
 }
+header{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;
+   
+}
+header nav a {
+ 
+    gap: 20px;
+    margin-right: 50px;
+  }
+  header address ul {
+    display: flex;
+    list-style: none;
+    gap: 20px; 
+  }
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px; 
+  }
 
 .ourteam ul{
     display: flex   ;
@@ -74,4 +114,29 @@ header nav{
 }
 .ourteam ul li{
     margin: 25px;
+}
+.section2 ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin: 150px;
+}
+
+
+
+footer{
+    background-color: #2e2f42;
+    height: 300px;
+    width: 1350px;
+    color: #f4f4fd;
+}
+
+footer a{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700px;
+    size: 18px;
+    color: #f4f4fd;
+    margin-left: 30px;
+    line-height: 25px;
+    width: 71px;
 }
