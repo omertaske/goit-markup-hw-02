@@ -24,19 +24,26 @@ body{
 
 
 
-button{
-    color: #404BBF;
-    width: 200px;
-    height: 70px;
-    border-radius: 20px;
-    margin-left: 530px;
-    margin-top: 200px;
+.darkvg .but-ton{
+    background-color:  #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
     cursor: pointer;
+}
+.darkvg .but-ton, .but-ton:hover{
+    background-color: #404BBF;
+    
+}
+.darkvg .but-ton, .but-ton:focus{
+    background-color: #404BBF;
+
 }
 
 
-a:hover,
-button:hover{
+a:hover{
     color: #4D5AE5;
 }
 
@@ -56,6 +63,38 @@ color: #2e2f42;
     background-color: #f4f4fd;
     text-align: center;
     line-height: 40px;
+    
+}
+.our-h2{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+
+}
+
+.our-lili{
+    background-color: #FFFFFF;
+
+
+}
+
+
+.our-lili, .our-h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+
+}
+.our-lili, .our-ppp{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     
 }
 
@@ -125,13 +164,7 @@ header nav ul {
     gap: 20px; 
   }
 
-.ourteam ul{
-    display: flex   ;
-    list-style: none;
-}
-.ourteam ul li{
-    margin: 25px;
-}
+
 .section2 ul{
     display: flex;
     list-style: none;
@@ -139,6 +172,20 @@ header nav ul {
     margin: 150px;
 }
 
+.lili-li h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.lili-li p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
 
 footer{
