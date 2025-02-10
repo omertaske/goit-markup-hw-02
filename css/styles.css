@@ -170,8 +170,8 @@ body{
 
 /* FOOTER BÖLÜMÜ CSS KURALLARI (a etiketi ve span etiketi header bölümündeki nav içindeki css'i kullanır) */
 
-.foot-er{
-    color: #2e2f42
+.footer-class{
+    background-color: #2e2f42;
 
 }
 .foot-erpp{
@@ -180,6 +180,6 @@ body{
     letter-spacing: 0.02em;
 }
 
-.foot-er .foot-span{
-    color: #2e2f42
+.logo-span{
+    color: #2e2f42;
 }
