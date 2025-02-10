@@ -9,7 +9,7 @@ body{
 /* BAŞLIK (HEADER BÖLÜMÜ) İÇİN CSS KURALLARI */
 
 .nav-a{
-    font-family: "Raleway" sans-serif;
+    font-family: "Raleway";
     font-weight: 700 ;
     font-size: 18px;
     line-height: 1.17;
@@ -62,7 +62,7 @@ body{
 .one-sec{
     background-color: #2e2f42;
 }
-.one-sech1{
+.one-sechone{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -88,7 +88,7 @@ body{
 }
 
 /* Sitenin tanıtıldığı 4 maddelik o yer için css kuralları */ 
-.twosect-h3{
+.twosect-huc{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -110,7 +110,7 @@ body{
     background-color: #f4f4fd;
 
 }
-.thersect-h2{
+.thersect-hiki{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -123,7 +123,7 @@ body{
     background-color: #FFFFFF;
 
 }
-.thersect-lih3{
+.thersect-lihuc{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -140,7 +140,7 @@ body{
 /* OUR PORTFOLYONUN OLDUĞU YER İÇİN CSS KURALLARI */
 
 
-.foursect-h2{
+.foursect-hiki{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -150,7 +150,7 @@ body{
 
 }
 
-.foursect-h3{
+.foursect-huc{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -170,7 +170,7 @@ body{
 /* FOOTER BÖLÜMÜ CSS KURALLARI (a etiketi ve span etiketi header bölümündeki nav içindeki css'i kullanır) */
 
 .foot-er{
-    color: #2e2f42;
+    background-color: #2e2f42;
 
 }
 .foot-erpp{
